@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MySongs</string>
+    <string name="input_name_song_album_singer">Input name song, album, singer</string>
+    <string name="rank">Rank</string>
+    <string name="playlists">Playlists</string>
+    <string name="singers">Singers</string>
+    <string name="object_song_arraylist">object_song_arraylist</string>
+    <string name="object_song">object_song</string>
+    <string name="object_singer">object_singer</string>
+    <string name="previous">Previous</string>
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
+    <string name="next">Next</string>
+    <string name="clear">Clear</string>
+    <string name="action">action</string>
+    <string name="status">status</string>
+    <string name="send_playing_song_activities">SEND_PLAYING_SONG_ACTIVITIES</string>
+    <string name="send_main_activity">SEND_MAIN_ACTIVITY</string>
+    <string name="object_playlist">object_playlist</string>
+    <string name="result">Results</string>
+    <string name="albums">Albums</string>
+    <string name="songs">Songs</string>
+    <string name="object_auto_text">object_auto_text</string>
+    <string name="error_empty_search">Please input name song, playlist, singer...</string>
+</resources>

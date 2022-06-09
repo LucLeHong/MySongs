@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_50sdp"
+    android:gravity="center_vertical"
+    android:id="@+id/layout_item_playlist"
+    android:layout_marginVertical="@dimen/_8sdp">
+
+    <ImageView
+        android:id="@+id/image_song"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/_5sdp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_40sdp"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@id/image_song">
+
+        <TextView
+            android:id="@+id/text_name_song"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16ssp"
+            android:fontFamily="@font/ubuntu_medium"
+            android:maxLines="1"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/text_name_singer"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/ubuntu_regular"
+            android:maxLines="1"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
